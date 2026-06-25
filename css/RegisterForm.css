@@ -1,0 +1,50 @@
+.Form-control {
+	width:25%;
+	height:20px;
+}
+
+#Div-Form {
+	margin: 250px auto 200px;
+	border:1px solid black;
+	max-width: 400px;
+	background-color: GhostWhite;
+	border-radius: 10px;
+}
+
+#Title-Form {
+	text-transform:uppercase;
+	font-size:25px;
+	padding-left:40px;
+}
+
+#Login-Form-Div {
+	width: 800px;
+	padding: 50px 100px 50px 100px;
+}
+
+#Username-Label, #Email-Label {	
+	font-size:20px;
+}
+
+#GioiTinhNam-Label, #GioiTinhNu-Label, #QueQuan-Label, #NgaySinh-Label, #Password-Label, #ConfirmPassword-Label {
+	font-size:20px;
+}
+
+#NgaySinh {
+	width: 120px;
+}
+
+#Submit-Input, #Reset-Input{
+	background-color:ForestGreen;
+	border-radius: 5px;
+	color:white;
+	font-size:15px
+}
+
+#Submit-Input {
+	width: 150px;
+}
+
+#Register-Form {
+	width:200px;
+}

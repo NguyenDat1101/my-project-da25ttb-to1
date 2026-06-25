@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    width: 350px;
+    text-align: center;
+}
+
+#Ten {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e9ecef; 
+    border-left: 5px solid #007bff; /* Giữ style border-left đặc trưng, đổi sang màu xanh dương cho hợp với text hiển thị tên */
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #495057;
+}
+
+button {
+    background-color: #28a745; /* Màu xanh lá đồng bộ với nút #btnPrint cũ */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 85%;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #218838; 
+}

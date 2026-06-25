@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    width: 350px;
+    text-align: center;
+}
+
+.Form-Control {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #007bff; 
+}
+
+#txtSo {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+}
+
+#txtSo:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+#btnPrint {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 85%;
+}
+
+#btnPrint:hover {
+    background-color: #218838; 
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef; 
+    border-left: 5px solid #28a745; 
+    border-radius: 5px;
+    min-height: 50px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #495057;
+}

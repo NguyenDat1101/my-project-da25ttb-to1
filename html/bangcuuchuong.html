@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+	<title>Bảng cửu chương</title>
+	<meta charset="utf-8">
+	<link href = "../css/bangcuuchuong.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<form>
+			<label>Nhập vào 1 số từ 1 đến 10:</label>
+			<input type="number" name="txtSo" id="txtSo" placeholder="Nhập vào 1 số" min="1" max="10" value="2">
+			<input type="button" id="btnPrint" value="In bảng cửu chương"
+				onclick="printBCC(document.getElementById('txtSo').value)">
+		</form>
+		<div id="result">
+			Chỗ này sẽ hiển thị bảng cửu chương tương ứng
+		</div>
+
+	</div>
+	<script>
+		/*Viết mã Javascript*/
+		function printBCC(n) {
+			let result = "";
+
+
+			let i = 1;
+			while (i <= 10) {
+				result += `${n} x ${i} = ${n * i} <br>`;
+				i++;
+			}
+			//Đưa kết quả vào thẻ div có id là "result"
+			document.getElementById("result").innerHTML = result;
+		}
+	</script>
+</body>
+
+</html>

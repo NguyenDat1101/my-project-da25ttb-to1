@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>TRANG Web</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/tinhdientich.css">
+</head>
+<body>
+    <div id="container">  
+        <button type="button" onclick="Test()">Tính Diện Tích</button>
+    </div>
+
+    <script>
+        function Test(){
+            let chieudai;
+            let chieurong;
+            do {
+                chieudai = Number(prompt("Nhập chiều dài(cm):"));
+                chieurong = Number(prompt("Nhập chiều rộng(cm):"));
+            } while (chieurong > chieudai);
+
+            if (chieurong == chieudai) {
+                let hinhvuong = chieudai * chieudai;
+                alert(`diện tích hình vuông là ${hinhvuong} cm^2`);
+            }
+            else {
+                let hinhchunhat = chieudai * chieurong;
+                alert(`diện tích hình chữ nhật là ${hinhchunhat} cm^2`);
+            }
+        }
+    </script>
+</body>
+</html>

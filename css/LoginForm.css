@@ -1,0 +1,42 @@
+.Form-control {
+	width:25%;
+	height:20px;
+}
+
+#Div-Form {
+	margin: 250px auto 200px;
+	border:1px solid black;
+	max-width: 400px;
+	background-color: GhostWhite;
+	border-radius: 10px;
+}
+
+#Title-Form {
+	text-transform:uppercase;
+	font-size:25px;
+	padding-left:25px;
+}
+
+#Login-Form-Div {
+	width: 800px;
+	padding: 50px 100px 50px 100px;
+}
+
+#Username-Label, #Password-Label {	
+	font-size:20px;
+}
+
+#Submit-Input, #Reset-Input {
+	background-color:ForestGreen;
+	border-radius: 5px;
+	color:white;
+	font-size:15px
+}
+
+#Submit-Input {
+	width: 150px;
+}
+
+#Register-Form {
+	width:200px;
+}

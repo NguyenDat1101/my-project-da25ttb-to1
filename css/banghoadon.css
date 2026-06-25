@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; 
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    width: 100%;
+    max-width: 650px;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#table th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 10px;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+}
+
+#table td, #table tr th:not(:first-child) {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+
+#table tr th:first-child {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+    width: 40px;
+}
+
+.tenhang {
+    text-align: left !important;
+    font-weight: 500;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+#table tr:hover:not(:first-child):not(:last-child) {
+    background-color: #e9ecef;
+}
+
+#tongthanhtoan1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212529;
+    background-color: #e9ecef; 
+    border-left: 5px solid #28a745 !important;
+    text-align: right !important;
+    padding: 15px;
+}

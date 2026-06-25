@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head> 
+    <title>TRANG Web</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/prompt.css">
+</head>
+<body>
+    <div id="container">  
+        <p id="Ten">Đạt</p>
+        <button type="button" onclick="Test()">Button</button>
+    </div>
+
+    <script>
+        function Test(){
+            let name = prompt("nhập tên của bạn:");
+            let ngaysinh = Number(prompt("Nhập năm sinh của bản:"));
+            if (ngaysinh > 2026 || ngaysinh < 1900) {
+                alert("Ngày sinh không hợp lệ:");
+            } else {
+                alert("xin chao " + name + " ban nam nay da " + (2026 - ngaysinh) + " tuoi roi!");
+                if (ngaysinh > 2000 && ngaysinh <= 2010){
+                    alert("bạn thuộc thế hệ Z");
+                }
+                else if (ngaysinh > 2010){
+                    alert("bạn thuộc thế hệ A");
+                }
+                else {
+                    alert("bạn thuộc thệ hệ cũ");   
+                }
+            }
+        }
+    </script>
+</body>
+</html>
